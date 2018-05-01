@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html class="no-js" lang="zh">
+ <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+	<title>主页 -- 马乐乐</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+   <link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">主页</a></li>
+            <li><a class="smoothscroll" href="#about">关于</a></li>
+	     <!--     <li><a class="smoothscroll" href="#resume">简历</a></li>
+            <li><a class="smoothscroll" href="#portfolio">工作经验</a></li>
+            <li><a class="smoothscroll" href="#testimonials">获奖情况</a></li>
+            <li><a class="smoothscroll" href="#contact">联系方式</a></li><!-- 
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <!-- <h1 class="responsive-headline">
+			欢迎访问乐乐(<a href="index.html">Lele Ma</a>)的主页
+			</h1> -->
+            <h2> 马乐乐(<span title="English"><a lang="en" href="index.html">Lele Ma</a></span>)是威廉玛丽学院的研究生,研究兴趣广泛, 主要有计算机系统,虚拟机系统,系统容器(containerization),系统安全等。
+	       <a class="smoothscroll" href="#about">更多信息</a>.</h2>
+            <hr />
+            <ul class="social">
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>关于乐乐</h2>
+
+            <p>乐乐对 <span style="color:black;font-weight:bold"> 计算机系统与安全 </span>有浓厚
+	      兴趣, 现就读于 <span><a href="http://www.wm.edu/"> 威廉玛丽 </a></span>  <span><a href="http://www.wm.edu/as/computerscience/">计算机学院</a></span> . 导师是 <span><a href="http://www.cs.wm.edu/~liqun/">Professor Qun Li</a></span>. 
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>助教工作信息</h2>
+                  <p class="address">
+			<!-- <span>马乐乐</span><br> -->  
+			<span><b>答疑时间:</b></span><br>
+			   <span>&nbsp;&nbsp;&nbsp;&nbsp; 周一 16:00~17:00,<br>
+				 &nbsp;&nbsp;&nbsp;&nbsp; 周五 16:00~17:00,<br>
+				 &nbsp;&nbsp;&nbsp;&nbsp; 或预约. </span><br>
+			<span><b>答疑办公室:</b></span><br>
+			   <span>&nbsp;&nbsp;&nbsp;&nbsp; McGlothlin-Street Hall, Room 139<br>
+				 &nbsp;&nbsp;&nbsp;&nbsp; </span><br>
+			<span><b>研究生办公室：</b><br>
+			      &nbsp;&nbsp;&nbsp;&nbsp;McGlothlin-Street Hall, Room 101A<br>
+			      &nbsp;&nbsp;&nbsp;&nbsp;College of William and Mary<br>
+			      &nbsp;&nbsp;&nbsp;&nbsp;Williamsburg, VA 23185 US</span><br>
+			<span><b>电话：</b> 
+			  &nbsp;&nbsp;&nbsp;&nbsp; <button type="button" id="PhnZhButton" 
+					onclick="document.getElementById('PhnZhButton').innerHTML = getPhnZh()">点击</button>
+            </span><br>
+            <span><b>邮箱：</b> 
+			  &nbsp;&nbsp;&nbsp;&nbsp; <button type="button" id="EmlZhButton" 
+					onclick="document.getElementById('EmlZhButton').innerHTML = getEmlZh()">点击</button>
+            </span><br>
+		  </p>
+
+               </div>
+
+               <!-- <div class="columns download">
+                  <p>
+                     <a href="cv/lelema-cv.pdf" class="button"><i class="fa fa-download"></i> Resume</a>
+                  </p>
+               </div> -->
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <!-- 
+			   <li><a href="#"><i class="fa fa-facebook"></i></a></li> 
+               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fa fa-dribbble"></i></a></li> 
+               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+			   -->
+               <li><a href="https://twitter.com/cnlelema"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/lelema"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+				<li><script language="Javascript">
+document.write("Last updated on: " + document.lastModified +"");
+</SCRIPT></li>
+               <li>致谢： 网页设计  <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a>. </li>   
+               <li>&copy; Copyright 2014 CeeVee</li>
+            </ul>
+		<!-- dot 3d globe,rotation 10 degree, old green, recent red, sun position at right -->
+		 <script type="text/javascript" src="//ra.revolvermaps.com/0/0/8.js?i=00113ut7r5w&amp;m=0&amp;s=200&amp;c=54ff00&amp;cr1=ff0000&amp;f=arial&amp;l=33&amp;v0=100&amp;lx=380&amp;ly=-20" async="async"></script> <!---->
+		
+	   	<!-- dot 2d map, 200px width, old green, recent red. -->
+		<!-- <div style="display:inline-block;width:200px;"><script type="text/javascript" src="//ra.revolvermaps.com/0/0/7.js?i=0ws5i5vkr14&amp;m=0&amp;c=54ff00&amp;cr1=ff0000&amp;br=10&amp;sx=3" async="async"></script></div> -->
+		
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+   <script charset="utf-8" src="js/magic.js" ></script>
+
+</body>
+
+</html>
